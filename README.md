@@ -1,7 +1,7 @@
 This is a [Next.js ](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ✨ ✨ ✨ ✨ ✨ ✨ ✨
-Inspired by [Sonny Sangha](https://github.com/sonnysangha) Nextjs / Tailwind walkthrouhs
+Inspired by [Sonny Sangha](https://github.com/sonnysangha) Nextjs / Tailwind walkthrough
 
 ## Getting Started
 
@@ -19,6 +19,6 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 
 ## Deploy your own
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+Deploy the example using [Vercel](https://vercel.com)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fviktorijaz%2Fnextjs-tailwindcss-portfolio.git)
