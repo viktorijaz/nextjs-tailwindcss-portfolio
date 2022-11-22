@@ -27,7 +27,7 @@ export default function Home() {
 
         <section
           id="services"
-          className="snap-center"
+          className="snap-start"
         >
           <Services />
         </section>

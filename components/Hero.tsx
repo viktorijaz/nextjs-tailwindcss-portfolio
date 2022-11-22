@@ -12,11 +12,11 @@ export default function Hero() {
   return (
     <div className="h-screen bg-[url('/polygons-bg.png')] bg-no-repeat">
       <div className="min-w-full flex items-start justify-evenly p-11">
-        <div className="flex flex-col items-start max-w-xl ">
-          <h1 className="text-4xl lg:text-5xl font-semibold md:text-left leading-8">
+        <div className="flex flex-col items-start min-w-[530px] my-8">
+          <h1 className="text-4xl lg:text-5xl font-bold text-left leading-12 mt-8">
             I’m Rayan Adlrdard <br></br>
             <span className="text-regal-green">{text}</span>
-            <Cursor cursorColor="#F7AB0A" />{" "}
+            <Cursor cursorColor="#F7AB0A" />
           </h1>
           <p className="text-[#767676] text-base my-6 font-medium leading-6 max-w-[500px]">
             Front-End Engineer for more than a decade. <br></br>Science and Art
