@@ -5,7 +5,7 @@ Inspired by [Sonny Sangha](https://github.com/sonnysangha) Nextjs / Tailwind wal
 
 ## Fully stylized portolio template
 
-[portfolio template](preview.png?raw=true "Portfolio template")
+![portfolio preview](https://raw.githubusercontent.com/viktorijaz/nextjs-tailwindcss-portfolio/main/preview.png)
 
 ## Getting Started
 
