@@ -1,47 +1,53 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import BackgroundCircles from "./BackgroundCircles";
 import Image from "next/image";
-import Link from "next/link";
+import { EnvelopeIcon } from "@heroicons/react/24/solid";
 
-type Props = {};
-
-export default function Hero({}: Props) {
+export default function Hero() {
   const [text, count] = useTypewriter({
-    words: ["Hello world", "Developer", "And a bit more"],
+    words: ["A Front End Developer", "A Coffee Drinker", "And a bit more"],
     loop: true,
     delaySpeed: 2000,
   });
   return (
-    <div className="h-screen flex flex-col items-center justify-center text-center overflow-hidden">
-      <BackgroundCircles />
-      <Image
-        width="100"
-        height="100"
-        className="rounded-full -mt-20"
-        src="https://gravatar.com/avatar/8672deaef503beb696aa2206604a76e8?s=400&d=robohash&r=x"
-        alt="profile pic"
-      />
-      <div className="z-20">
-        <h2 className="text-sm uppercase tracking-widest text-gray-500 pb-2">Software Engineer</h2>
-        <h1 className="text-5xl lg:text-6xl font-semibold px-10">
-          <span className="mr-3">{text}</span>
-          <Cursor cursorColor="#F7AB0A" />
-        </h1>
-        <div className="pt-5">
-          <Link href="#about">
-            <button className="heroButton">About</button>
-          </Link>
-          <Link href="#experience">
-            <button className="heroButton">Experience</button>
-          </Link>
-          <Link href="#skills">
-            <button className="heroButton">Skills</button>
-          </Link>
-          <Link href="#projects">
-            <button className="heroButton">Projects</button>
-          </Link>
+    <div className="h-screen bg-[url('/polygons-bg.png')] bg-no-repeat">
+      <div className="min-w-full flex items-start justify-evenly p-11">
+        <div className="flex flex-col items-start max-w-xl ">
+          <h1 className="text-4xl lg:text-5xl font-semibold md:text-left leading-8">
+            I’m Rayan Adlrdard <br></br>
+            <span className="text-regal-green">{text}</span>
+            <Cursor cursorColor="#F7AB0A" />{" "}
+          </h1>
+          <p className="text-[#767676] text-base my-6 font-medium leading-6 max-w-[500px]">
+            Front-End Engineer for more than a decade. <br></br>Science and Art
+            Aficionado. Interested in every major relevant technology, from
+            Back-End Frameworks To Web 3.
+          </p>
+          <div className="bg-regal-green py-3 px-8 flex items-center rounded-md text-white font-semibold uppercase text-md ">
+            Ping Me
+            <EnvelopeIcon className="text-white h-4 w-4 animate-pulse ml-2" />
+          </div>
         </div>
+        <div className="rounded-full overflow-hidden h-64 w-64">
+          <Image
+            width="250"
+            height="250"
+            layout="contain"
+            className=""
+            src="/profile.png"
+            alt="profile pic"
+          />
+        </div>
+      </div>
+      <div className="min-w-full min-h-fit flex justify-end">
+        <Image
+          width="780"
+          height="450"
+          layout="contain"
+          className="text-right"
+          src="/cloud-tag.svg"
+          alt="skills cloud tags"
+        />
       </div>
     </div>
   );

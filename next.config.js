@@ -5,16 +5,13 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'gravatar.com',
-        port: '',
-        pathname: '/avatar/**',
+        protocol: "https",
+        hostname: "gravatar.com",
+        port: "",
+        pathname: "/avatar/**",
       },
     ],
   },
+};
 
-}
-
-module.exports = nextConfig
-
-
+module.exports = nextConfig;
