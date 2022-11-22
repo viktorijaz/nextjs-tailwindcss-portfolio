@@ -3,6 +3,10 @@ This is a [Next.js ](https://nextjs.org/) project bootstrapped with [`create-nex
 ✨ ✨ ✨ ✨ ✨ ✨ ✨
 Inspired by [Sonny Sangha](https://github.com/sonnysangha) Nextjs / Tailwind walkthrough
 
+## Fully stylized portolio template
+
+[portfolio template](preview.png?raw=true "Portfolio template")
+
 ## Getting Started
 
 Run the development server:
