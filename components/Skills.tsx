@@ -9,12 +9,14 @@ export default function Skills({}: Props) {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
-      className="flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center"
+      className="flex relative flex-col text-center space-y-12 max-w-[2000px] xl:px-10 min-h-screen justify-center  mx-auto items-center"
     >
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">Skills</h3>
-      <h3 className="absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm">
-        Hover over a skill for current profieciency
-      </h3>
+      <h3 className="font-bold text-regal-black text-4xl mt-24">Skills</h3>
+      <p className="text-md text-regal-black max-w-md text-[16px] leading-[24px] text-center mt-8">
+        A showcase of the projects I have worked on. by no means an exhaustive
+        list, just a portion that shows the versatile and Detail-oriented aspect
+        of my work
+      </p>
       <div className="grid grid-cols-4 gap-5">
         <Skill />
         <Skill />

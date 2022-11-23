@@ -4,7 +4,7 @@ import Service from "./Service";
 
 export default function Services() {
   return (
-    <div className="flex h-screen flex-col text-center max-w-[2000px] xl:px-10 min-h-screen justify-start mx-auto items-center">
+    <div className="flex h-screen flex-col text-center max-w-[2000px] xl:px-10 justify-start mx-auto items-center">
       <h3 className="font-bold text-regal-black text-4xl mt-24">My Services</h3>
       <p className="text-md text-regal-black max-w-md text-[16px] leading-[24px] text-center mt-8">
         I participate in

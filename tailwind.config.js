@@ -10,6 +10,7 @@ module.exports = {
         "regal-green": "#308A54",
         "regal-black": "#2B2B2B",
         "regal-gray": "#767676",
+        "regal-yellow": "#FFB400",
       },
     },
   },

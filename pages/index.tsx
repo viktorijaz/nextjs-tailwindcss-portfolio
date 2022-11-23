@@ -3,10 +3,10 @@ import Image from "next/image";
 import Services from "../components/Services";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
-import Experience from "../components/Experience";
 import Skills from "../components/Skills";
-import Projects from "../components/Projects";
 import Contact from "../components/Contact";
+import ProjectsGrid from "../components/ProjectsGrid";
+import WorkHistory from "../components/WorkHistory";
 
 export default function Home() {
   return (
@@ -36,7 +36,7 @@ export default function Home() {
           id="experience"
           className="snap-center"
         >
-          <Experience />
+          <ProjectsGrid />
         </section>
 
         <section
@@ -50,7 +50,7 @@ export default function Home() {
           id="projects"
           className="snap-center"
         >
-          <Projects />
+          <WorkHistory />
         </section>
 
         <section
