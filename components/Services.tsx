@@ -4,7 +4,7 @@ import Service from "./Service";
 
 export default function Services() {
   return (
-    <div className="flex h-screen flex-col text-center max-w-[2000px] xl:px-10 justify-start mx-auto items-center">
+    <div className="flex md:h-screen flex-col text-center max-w-[2000px] xl:px-10 justify-start mx-auto items-center">
       <h3 className="font-bold text-regal-black text-4xl mt-24">My Services</h3>
       <p className="text-md text-regal-black max-w-md text-[16px] leading-[24px] text-center mt-8">
         I participate in
@@ -14,7 +14,7 @@ export default function Services() {
         , starting from the user stories and design, programming and all the way
         up to collaborating with all the major stakeholders
       </p>
-      <div className="grid grid-cols-3 gap-x-6 gap-y-8 mx-auto mt-16">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-8 mx-auto mt-16">
         <Service
           title="Front End Development"
           desc=" JavaScript, React, Angular, TypeScript, NextJs, HTML, CSS, SCSS,

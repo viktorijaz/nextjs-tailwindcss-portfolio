@@ -5,7 +5,7 @@ import WorkExperience from "./WorkExperience";
 
 export default function WorkHistory() {
   return (
-    <div className="flex h-screen flex-col max-w-[2000px] justify-stretch mx-auto items-center">
+    <div className="flex md:min-h-screen flex-col max-w-[2000px] justify-stretch mx-auto items-center">
       <h3 className="font-bold text-regal-black text-4xl mt-24">WorkHistory</h3>
       <p className="text-md text-regal-black max-w-md text-[16px] leading-[24px] text-center mt-8">
         Front-End Engineer

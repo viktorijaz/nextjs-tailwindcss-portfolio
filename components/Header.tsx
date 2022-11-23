@@ -3,9 +3,7 @@ import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
-type Props = {};
-
-export default function Header({}: Props) {
+export default function Header() {
   return (
     <header className="sticky top-0 flex item-start justify-between max-w-7xl mx-auto z-20 p-5 bg-white">
       <motion.div
@@ -31,7 +29,7 @@ export default function Header({}: Props) {
         />
       </motion.div>
 
-      <div className="py-3">
+      <div className="py-3 hidden md:flex">
         <Link href="#services">
           <button className="heroButton">Services</button>
         </Link>

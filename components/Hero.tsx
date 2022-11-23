@@ -11,8 +11,8 @@ export default function Hero() {
   });
   return (
     <div className="h-screen bg-[url('/polygons-bg.png')] bg-no-repeat">
-      <div className="min-w-full flex items-start justify-evenly p-11">
-        <div className="flex flex-col items-start min-w-[530px] my-8">
+      <div className="min-w-full flex flex-col md:flex-row items-start justify-evenly p-11">
+        <div className="flex flex-col items-start md:basis-[3/4] my-8">
           <h1 className="text-4xl lg:text-5xl font-bold text-left leading-12 mt-8">
             I’m Rayan Adlrdard <br></br>
             <span className="text-regal-green">{text}</span>
@@ -28,7 +28,7 @@ export default function Hero() {
             <EnvelopeIcon className="text-white h-4 w-4 animate-pulse ml-2" />
           </div>
         </div>
-        <div className="rounded-full overflow-hidden h-64 w-64">
+        <div className="rounded-full overflow-hidden h-64 w-64 order-first md:order-last">
           <Image
             width="250"
             height="250"

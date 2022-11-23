@@ -12,7 +12,7 @@ export default function ProjectsGrid() {
         list, just a portion that shows the versatile and Detail-oriented aspect
         of my work
       </p>
-      <div className="grid grid-cols-3 gap-x-6 gap-y-12 mx-auto mt-16 text-left">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-12 mx-auto mt-16 text-left">
         <Project
           title="Webinar Ninja"
           img="/project.png"
